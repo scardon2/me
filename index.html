@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sofia Cardona</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      margin-top: 100px;
+      font-size: 3em;
+    }
+
+    .buttons {
+      margin-top: 60px;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 16px;
+      color: white;
+      background-color: #333;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I'm Sofia Cardona</h1>
-  <p>This is my website hosted.</p>
+
+  <h1>Sofia Cardona</h1>
+
+  <div class="buttons">
+    <a href="your-resume-link.pdf" class="button" target="_blank">Resume</a>
+    <a href="https://www.linkedin.com/in/your-profile" class="button" target="_blank">LinkedIn</a>
+    <a href="#about" class="button">About Me</a>
+  </div>
+
+  <!-- Optional: Add about section -->
+  <div id="about" style="margin-top: 100px; padding: 0 20px;">
+    <h2>About Me</h2>
+    <p>I’m a computer science student at Notre Dame interested in tech consulting, startups, and helping Central America grow through better technology access.</p>
+  </div>
+
 </body>
 </html>
